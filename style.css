@@ -1,0 +1,94 @@
+body{
+  box-sizing: border-box;
+}
+
+/* ---about us section----- */
+.About-girl-Img{
+  width: 100%;
+}
+.about-side-detail{
+  width: auto;
+  margin-right: 10%;
+  padding: 10px;
+}
+.about-side{
+  padding: 0% 5% 0% 5%;
+}
+.about-pera{
+  color: rgb(131, 123, 123);
+}
+.subscribe{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.input::placeholder {
+  text-align: right;
+}
+.input{
+  width: 70%;
+  padding: 4px;
+}
+.subscribe-btn{
+  border: 2px solid black;
+  border-radius: none !important;
+}
+.form-div{
+  background-color: rgb(223, 220, 220);
+}
+/* -----about end---- */
+
+/* ------product------- */
+.braclete-img{
+  width: 70%;
+  float: right;
+}
+.imgDiv{
+  position: relative;
+    /* top: -7vw; */
+}
+.li-img{
+  width: 10%;
+}
+.side-images li{
+/* text-decoration: none; */
+
+margin: 2px;
+list-style-type: none;
+}
+.side-images{
+  display: inline-block;
+}
+
+/* -------location section------ */
+.location-head{
+  text-align: center;
+  margin: 5%;
+}
+.Detail-user{
+  padding: 2%;
+}
+.Detail-user:hover{
+border: 2px solid black;
+}
+.contact-head{
+  text-align: center;
+  margin-top: 5%;
+}
+.form{
+  padding: 4% 14% 14% 14%;
+}
+.send-btn{
+  width: inherit;
+  padding: 2%;
+  color: white;
+  background-color: black;
+}
+.form-input{
+  padding: 2%;
+  border-radius: none !important;
+}
+.social-icon{
+  width: 4%;
+  margin: 1%;
+}
