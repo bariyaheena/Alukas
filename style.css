@@ -1,7 +1,17 @@
-body{
+
+* {
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
+  color: white;
 }
 
+
+body {
+  background-image: url("./images/body-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* ---about us section----- */
 .About-girl-Img{
   width: 100%;
@@ -14,9 +24,7 @@ body{
 .about-side{
   padding: 0% 5% 0% 5%;
 }
-.about-pera{
-  color: rgb(131, 123, 123);
-}
+
 .subscribe{
   margin-top: 6%;
   margin-bottom: 6%;
@@ -69,7 +77,7 @@ list-style-type: none;
   padding: 2%;
 }
 .Detail-user:hover{
-border: 2px solid black;
+border: 2px solid white;
 }
 .contact-head{
   text-align: center;
@@ -91,4 +99,108 @@ border: 2px solid black;
 .social-icon{
   width: 4%;
   margin: 1%;
+}
+/* ---header and footer----- */
+.pcarousel {
+  color: white;
+}
+
+
+
+.mini-head {
+  background-color: black;
+  padding: 0.5%;
+}
+
+.logo {
+  width: 13vw;
+}
+
+.logoftr {
+  width: 100%;
+}
+
+.nav-inputtype {
+  border: none;
+  background-color: rgb(56, 56, 56);
+  border-radius: 0%;
+  padding: 0.8vw;
+}
+
+.nav-inputtype1 {
+  border: none;
+  background-color: rgb(56, 56, 56);
+  border-radius: 0%;
+  padding: 0.8vw;
+}
+
+.nav-search {
+  border: 1px solid black;
+}
+
+.nav-icon {
+  font-size: 1.3vw;
+  padding: 1vw;
+}
+
+
+.nav-main {
+  background-color: black;
+}
+
+
+.togglebtn {
+  color: white;
+}
+
+.main-nav {
+  background-color: black;
+  border-bottom: 1px solid goldenrod;
+}
+
+.nav-mobile {
+  margin-right: 1vw;
+  font-size: 1vw;
+}
+
+.nav-location {
+  font-size: 1vw;
+}
+
+.nav-main-text {
+  font-size: 1vw;
+}
+
+
+.footer-text {
+  font-size: .9vw;
+  margin-bottom: 1vh;
+}
+
+.footer-h6 {
+  font-size: 1.1vw;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.footer-text-icon {
+  font-size: 0.9vw;
+}
+
+.footer-text-icon i:hover {
+  color: blue;
+  background-color: rgb(0, 136, 255);
+  padding: 2px;
+}
+
+
+.festival-heading-text {
+  font-size: 1.3vw;
+  color: white;
+}
+
+.festival-heading-text:hover {
+  font-size: 1.3vw;
+  font-weight: bold;
+
 }

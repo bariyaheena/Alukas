@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- Bootstrap CSS -->
     <link
@@ -35,6 +37,136 @@
       crossorigin="anonymous"
     ></script>
 
+
+     <!------ start Mini Nav ------>
+
+     <section>
+      <div class="container-fluid mini-head">
+          <p class="m-0 text-center">Dhyana Jewelers</p>
+      </div>
+  </section>
+
+
+  <!------ end Mini Nav ------>
+
+
+
+  <!------ start middle Nav ------>
+
+
+
+  <nav class="navbar-expand-lg navbar-light nav-main p-1 ps-2 pe-2">
+      <div class="container-fluid">
+          <div class="row">
+
+              <button class="col-4 text-start navbar-toggler togglebtn" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+              </button>
+
+              <div class="col-4 collapse navbar-collapse" id="navbarSupportedContent">
+                  <form class="d-flex justify-content-center nav-search w-100">
+                      <input class="form-control nav-inputtype" type="search" placeholder="Search"
+                          aria-label="Search">
+                      <button class="btn btn-outline-success nav-inputtype1" type="submit"><i
+                              class="fa-solid fa-magnifying-glass"></i></button>
+                  </form>
+              </div>
+
+
+
+              <div class="text-center col-4"><a class="navbar-brand" href="#"><img src="./images/LOGO (2).png"
+                          class="logo"></a></div>
+              <div class="col-4 d-flex align-items-center justify-content-end">
+                  <i class="fa-solid fa-user nav-icon"></i>
+                  <i class="fa-solid fa-heart nav-icon"></i>
+                  <i class="fa-solid fa-cart-shopping nav-icon"></i>
+              </div>
+          </div>
+      </div>
+
+  </nav>
+
+
+
+  <!------ end  middle Nav ------>
+
+
+  <!------ start main Nav ------>
+
+  <section class="container-fluid main-nav d-sm-none d-md-block d-none d-sm-block">
+      <div class="row">
+          <div class="col-2 d-flex align-items-center">
+              <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Browse Categories
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </div>
+          </div>
+
+
+          <div class="col-6 d-flex align-items-center justify-content-end">
+              <nav class="navbar navbar-expand-md navbar-light">
+                  <div class="container-fluid">
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                  <a class="nav-link active nav-main-text" aria-current="page" href="#"
+                                      style="color: white;">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link nav-main-text" href="#" style="color: white;">Shop</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle nav-main-text" href="#" id="navbarDropdown"
+                                      role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                      style="color: white;">
+                                      Dropdown
+                                  </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item nav-main-text" href="#">Action</a></li>
+                                      <li><a class="dropdown-item nav-main-text" href="#">Another action</a></li>
+                                      <li>
+                                          <hr class="nav-main-text dropdown-divider">
+                                      </li>
+                                      <li><a class="dropdown-item nav-main-text" href="#">Something else here</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link nav-main-text" href="#" style="color: white;">About us</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link nav-main-text" href="#" style="color: white;">Contect us</a>
+                              </li>
+
+                          </ul>
+
+                      </div>
+                  </div>
+              </nav>
+          </div>
+
+
+          <div class="col-4 d-flex align-items-center justify-content-end">
+              <p class="nav-mobile"><i class="fa-solid fa-phone"
+                      style="color: #ffffff; padding-right: 1vw;"></i>+91
+                  1234567890</p>
+              <p class="nav-location"><i class="fa-solid fa-location-dot"
+                      style="color: #ffffff; padding-right: 1vw;"></i>Find Store</p>
+          </div>
+      </div>
+  </section>
+
+  <!------ end  main Nav ------>
     <!-- about us section -->
 
     <section>
@@ -43,7 +175,7 @@
 
         <div class="col-6">
           <img
-            src="/images/about-me-img1.jpg"
+            src="./images/about-me-img1.jpg"
             class="About-girl-Img"
             alt="about-us-girlImage"
           />
@@ -71,7 +203,7 @@
             add name was rent park from rich.
           </p>
           <!----- sing img--- -->
-          <img src="/images/Signatire.png" width="20%" />
+          <img src="./images/Signatire.png" width="20%" />
           <hr />
           <div class="row">
             <div class="col-3 about-side-detail">
@@ -113,5 +245,143 @@
         </div>
       </div>
     </section>
+
+     <!-- Footer -->
+     <footer class="text-center text-lg-start bg-dark text-muted pt-4 pb-4">
+
+
+      <!-- Section: Links  -->
+      <section>
+          <div class="container text-md-start ">
+              <!-- Grid row -->
+              <div class="row mt-3">
+
+                  <div class="col-5 col-sm-4 col-md-2 col-lg-3 col-xl-3">
+                      <img src="images/LOGO (2).png" class="logoftr">
+                      <p class="footer-text mt-1">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                      <p class="footer-text">
+                          <b>Address:</b> &nbsp;502 New Design Str,<br>
+                              Melbourne, Australia
+                      </p>
+                      <p class="footer-text">
+                          <b>Email:</b> &nbsp; xwebinfolab@domain.com
+                      </p>
+
+                      <p class="footer-text">
+                          <b>Call:</b> &nbsp; +91 000000000
+                      </p>
+                  </div>
+                  <!-- Grid column -->
+                  <div class="col-12 col-sm-4 col-md-2 col-lg-2 col-xl-2m-0">
+                      <!-- Content -->
+                      <h6 class="text-uppercase fw-bold footer-h6">
+                          About
+                      </h6>
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">About Us</a>
+                      </p>
+
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Contect Us</a>
+                      </p>
+                     
+                      <p class="m-0 footer-text-p footer-text">
+                          <a href="#!" class="text-reset text-decoration-none ">Blog</a>
+                      </p>
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Site Map</a>
+                      </p>
+
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-12 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold  footer-h6">
+                          Our Shop
+                      </h6>
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Shopping App</a>
+                      </p>
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Be an Affiliate</a>
+                      </p>
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Advertise Your Product</a>
+                      </p>
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Media Enquires</a>
+                      </p>
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Other Services</a>
+                      </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold footer-h6">
+                          Store Details
+                      </h6>
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Need Any Help?</a>
+                      </p>
+
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Address:502 New Design Str,<br>
+                              Melbourne, Australia</a>
+                      </p>
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Email:xwebinfolab@domain.com</a>
+                      </p>
+
+                      <p class="m-0 footer-text-p">
+                          <a href="#!" class="text-reset text-decoration-none footer-text">Call: +91 000000000</a>
+                      </p>
+
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-12 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold  footer-h6">
+                          Follow Us
+                      </h6>
+
+                      <div>
+                          <a href="" class="text-decoration-none me-1 footer-text-icon p-1 text-reset">
+                              <i class="fab fa-facebook-f"></i>
+                          </a>
+                          
+                          <a href="" class="text-decoration-none me-1 footer-text-icon p-1 text-reset">
+                              <i class="fab fa-google"></i>
+                          </a>
+                          <a href="" class="text-decoration-none me-1 footer-text-icon p-1 text-reset">
+                              <i class="fab fa-instagram"></i>
+                          </a>
+                          
+                          
+                      </div>
+                  </div>
+                  <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+          </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="index.html">Dhyana Jewelers</a>
+      </div>
+      <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
   </body>
 </html>
