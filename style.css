@@ -204,3 +204,11 @@ border: 2px solid white;
   font-weight: bold;
 
 }
+.checkout-btn{
+  border: 2px solid white !important;
+background-color: black;
+
+}
+.coupon-input{
+  padding: 5px;
+}
